@@ -1,0 +1,24 @@
+[package]
+name = "octane"
+version = "0.1.0"
+edition = "2021"
+authors = ["Leo Kuroshita for Hügelton Instruments <info@hugelton.com>"]
+description = "Octane oscillator library for digital synthesis"
+license = "MIT"
+keywords = ["audio", "synthesis", "oscillator", "dsp"]
+categories = ["multimedia::audio"]
+readme = "README.md"
+
+[lib]
+name = "octane"
+path = "src/lib.rs"
+
+[[example]]
+name = "basic_test"
+path = "examples/basic_test.rs"
+
+[[example]]
+name = "synth_app"
+path = "examples/synth_app.rs"
+
+[dependencies]
